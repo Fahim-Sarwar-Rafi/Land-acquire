@@ -1,0 +1,140 @@
+/* h3 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+
+} */
+
+
+.libre-bodoni- {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.5;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    /* background-color: #333; */
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+@media (min-width: 40em) {
+    .featurette-heading {
+        font-size: 50px;
+        letter-spacing: -.05rem;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.bd-placeholder-img {
+    text-anchor: middle;
+    user-select: none;
+}
+/* Testimonials */
+@media (min-width: 768px) {
+    .h-md-250 {
+        height: 250px;
+    }
+}
+
+
+/* Header: Navbar */
+.container .nav .nav-item .nav-link {
+    color: #146c43;
+}
+.container .nav .nav-item .nav-link:hover {
+    background-color: #198754;
+    color: aliceblue;
+}
+.container .nav .nav-item .active {
+    background-color: #198754 !important;
+    color: aliceblue;
+}
+
+/* Hero Section: Card Texts and button */
+.card-img-overlay {
+    margin-left: 10%;
+}
+
+/* icon color */
+.icon-color {
+    color: #146c43;
+}
+
+/* Animation text */
+.text-animation-here::before {
+    content: "Solution";
+    animation-name: text-animate;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: -.5s;
+}
+@keyframes text-animate {
+    0% {
+        content: "Solution";
+    }
+
+    50% {
+        content: "Developer";
+    }
+    75% {
+        content: "Buyer";
+    }
+
+    100% {
+        content: "Seller";
+    }
+}
+/* icon */
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+/* Fill out form shadow */
+.card-form-shadow:hover {
+    box-shadow: .1px 1px 10px .1px rgb(97, 94, 84);
+}
+
+/* shadow for business tagline */
+.component-shadow {
+    box-shadow: .1px .5px 8px .1px rgb(97, 94, 84);
+
+}
+
+/* fonts */
+.font-libre-bodoni {
+    font-family: "Libre Bodoni", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-Cormorant-Garamond {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 550;
+    font-style: normal;
+}
+.font-DM-Serif-Display {
+    font-family: "DM Serif Display", serif;
+    font-weight: 550;
+    font-style: normal;
+}
+.font-Playfair-Display {
+    font-family: "Playfair Display", serif;
+    font-weight: 550;
+    font-style: normal;
+}
